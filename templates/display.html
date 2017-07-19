@@ -1,0 +1,15 @@
+<html>
+	<body>
+		{% if display == True %}
+        <ol>
+        {% for number in list %}
+        
+          <li>{{number}}</li>
+       
+      {% endfor %}
+      </ol>
+      {% else %}
+      <img src="../static/k.jpg">
+      {% endif%}
+  </body>
+</html>
